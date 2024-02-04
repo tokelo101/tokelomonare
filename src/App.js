@@ -1,32 +1,44 @@
+import react, { Component } from 'react';
+import { BrowserRouter as Router, Switch , Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+import NavigationBar from './components/NavigationBar';
+import Header from './components/Header';
+import Main from './components/Main';
+import Education from './components/Education';
+import React, {useState} from 'react';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <h1>
-          Tokelo Monare Portfolio
-        </h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <footer>
-        copyright©️ 2023: tokelomonare@gmail.com
 
-      </footer>
-    </div>
-  );
+function handleDisplay(){
+
+  //setDisplay(true);
+}
+
+class App extends Component{
+  render(){
+    return (
+      
+      <div className="App">
+        <div className='row justify-content-center'>
+          <div className='col-lg-8'>
+          <NavigationBar/>
+          {/* <Router>
+      <Switch>
+        <Route exact path="/" component={Main} />
+        <Route path="/education" component={Education} />
+        <Route path="/skills" component={Skills} />
+      </Switch>
+    </Router>
+           */}
+
+           
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,12 @@
+.card{
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 60px;
+    background-color: rgb(200, 200, 200, 0.05);
+    color: white;
+    align-items: center;
+}
+
+.card img{
+    margin-top: 50px;
+}
