@@ -1,44 +1,29 @@
-import react, { Component } from 'react';
-import { BrowserRouter as Router, Switch , Route } from 'react-router-dom';
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-import NavigationBar from './components/NavigationBar';
-import Header from './components/Header';
-import Main from './components/Main';
-import Education from './components/Education';
-import React, {useState} from 'react';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
+import './components/Skills'
+import Skills from "./components/Skills";
+import Hero from "./components/Hero"
+import Projects from "./components/Projects";
+import AboutMe from "./components/Aboutme";
+import Education from "./components/Education";
 
+const App = () => {
+  return (
+    <div>
+      {/* Hero Section */}
+      <Hero></Hero>
 
-function handleDisplay(){
-
-  //setDisplay(true);
-}
-
-class App extends Component{
-  render(){
-    return (
+      {/* About Section */}
+        <AboutMe></AboutMe>
       
-      <div className="App">
-        <div className='row justify-content-center'>
-          <div className='col-lg-8'>
-          <NavigationBar/>
-          {/* <Router>
-      <Switch>
-        <Route exact path="/" component={Main} />
-        <Route path="/education" component={Education} />
-        <Route path="/skills" component={Skills} />
-      </Switch>
-    </Router>
-           */}
+      {/* Skills Section */}
+          <Skills></Skills>
 
-           
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
+        <Education></Education>
+      {/* Projects Section */}
+          <Projects></Projects>
+    </div>
+  );
+};
 
 export default App;
