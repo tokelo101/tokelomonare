@@ -1,31 +1,49 @@
 import React from "react";
 import './Education.css';
-import Projects from "./Projects";
 
-const Education = ({count}) => {
-    
-    return (
-        <div className="Education" style={{backgroundColor:"rgb(200,200,200,0.1)", color:"white" , fontSize:20, borderRadius:50, marginTop:100}}>
-            <div className="row justify-content-center">
-                <div className="col-lg-8">
-            <h1>education</h1>
+const Education = () => {
+  return (
+    <section className="education section">
+      <div className="container">
+        {/* Education Overview */}
+        <div className="education-content">
+          <div className="education-text">
+            <h2>Education</h2>
+            <p>
+              I hold a Bachelor's Degree in Computer Science and Informatics from the University of Johannesburg. My academic journey has equipped me with a strong foundation in computer science, software engineering, and technology management.
+            </p>
+            <p>
+              During my studies, I engaged in various projects, research, and extracurricular activities that honed my skills and prepared me for a career in technology.
+            </p>
+          </div>
 
-                <h3>BSc Computer Science & Informatics (Loading...)</h3>
-                <p>University Of Johannesburg</p>
-
-                <h3>First Year</h3>
-                <h5 style={{backgroundColor:'rgb(200, 200, 200, 0.1)'}}> Average: {count}%</h5>
-                <h3>Second Year</h3>
-                <h5>Average: 79%</h5>
-                <h3>Third Year</h3>
-                <h5>Average: 75%</h5>
-                <h3>Fourth Year</h3>
-                <h5>Average: --%</h5>
-                </div>
-            </div>
+          {/* Graduation Image */}
+          <div className="education-image">
+            <img src="path_to_your_graduation_image.jpg" alt="Graduation" />
+          </div>
         </div>
 
-    )
-}
+        {/* Achievements & Projects */}
+        <div className="achievements">
+          <h3>Achievements & Projects</h3>
+          <div className="achievements-grid">
+            <div className="achievement-card">
+              <h4>🎓 Degree Awarded</h4>
+              <p>Graduated with Bachelor in 2024.</p>
+            </div>
+            <div className="achievement-card">
+              <h4>💡 Notable Project</h4>
+              <p>Led a team project on Informatics.</p>
+            </div>
+            <div className="achievement-card">
+              <h4>🏆 Award</h4>
+              <p>Received a Certificate for a short course in Artificial Inleligence in the 4IR.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-export default Education
+export default Education;
