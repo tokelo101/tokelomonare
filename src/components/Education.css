@@ -140,3 +140,9 @@
     }
   }
   
+    /* Responsive Design */
+    @media (max-width: 1500px) {
+      .achievements-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }

@@ -1,5 +1,6 @@
 import React from "react";
 import './Education.css';
+import graduationCap from "../images/graduation 2.png";
 
 const Education = () => {
   return (
@@ -19,7 +20,7 @@ const Education = () => {
 
           {/* Graduation Image */}
           <div className="education-image">
-            <img src="path_to_your_graduation_image.jpg" alt="Graduation" />
+            <img src={graduationCap} alt="Graduation" />
           </div>
         </div>
 

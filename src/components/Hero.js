@@ -1,5 +1,6 @@
 import React from "react";
 import './Hero.css';
+import profilePhoto from "../images/profilePhoto.jpg";
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
       <div className="container hero-content">
         {/* Profile Image */}
         <div className="profile-image">
-        <img src='/images/tokelo3.jpg' alt="Profile" />
+        <img src={profilePhoto} alt="Profile" />
         </div>
 
         {/* Hero Text */}

@@ -5,8 +5,9 @@ import './Skills.css';
 
 const Skills = () => {
   return (
+
     <section className="skills section">
-      <div className="container">
+      <div className="container hero-content">
         <h2 className="section-title">Technical & Soft Skills</h2>
 
         <div className="skills-grid">

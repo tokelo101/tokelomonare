@@ -92,10 +92,9 @@ body {
     font-size: 48px;
   }
 
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .skills-grid {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-  }
-  
+    /* Responsive Design */
+    @media (max-width: 1500px) {
+      .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      }

@@ -52,6 +52,7 @@
   /* Fun Facts Section */
   .fun-facts {
     margin-bottom: 40px;
+    margin: 20px 0;
   }
   
   .fun-facts h3 {
@@ -124,6 +125,16 @@
     box-shadow: 0 8px 16px rgba(0, 255, 127, 0.3);
   }
   
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+  
   /* Responsive Design */
   @media (max-width: 768px) {
     .about-content {
@@ -141,3 +152,10 @@
     }
   }
   
+
+    /* Responsive Design */
+    @media (max-width: 1500px) {
+      .facts-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }

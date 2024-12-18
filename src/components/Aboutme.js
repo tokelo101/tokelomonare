@@ -1,5 +1,7 @@
 import React from "react";
 import './Aboutme.css';
+import techStack from '../images/tech_Setup.jpg';
+import aboutMe from '../images/blue-code.png';
 
 const AboutMe = () => {
   return (
@@ -30,11 +32,13 @@ const AboutMe = () => {
 
           {/* Profile Image */}
           <div className="about-image">
-            <img src="images/tokelo4.jpg" alt="Profile" />
+            <img src={aboutMe} alt="Profile" />
           </div>
         </div>
 
         {/* Fun Facts & Interests */}
+
+        <div className="container hero-content">
         <div className="fun-facts">
           <h3>Fun Facts</h3>
           <div className="facts-grid">
@@ -52,13 +56,13 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
+        </div>
 
         {/* Tech Setup Image Section */}
         <div className="tech-setup">
           <h3>My Tech Setup</h3>
           <div className="setup-images">
-            <img src="images/tech_setup.jpg" alt="Tech Setup" />
-            {/* <img src="path_to_your_setup_image2.jpg" alt="Workspace" /> */}
+            <img src={techStack} alt="Tech Setup" />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import profilePhoto from "../images/profilePhoto.jpg";
 
 const Main=()=>{
     return(
@@ -8,7 +9,7 @@ const Main=()=>{
             </div>
             <div className="row justify-content-center">
                 <div className="col-lg-6">
-                <a className="navbar-brand" href="/"><img src='images/profile/tokelomonare.jpg' style={{height:250, width:250, borderRadius:250, marginTop:50}}></img></a>
+                <a className="navbar-brand" href="/"><img src={profilePhoto} style={{height:250, width:250, borderRadius:250, marginTop:50}}></img></a>
                 
                 </div>
                 </div>

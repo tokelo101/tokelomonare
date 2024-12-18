@@ -21,6 +21,12 @@ const Projects = () => {
       technologies: "ASP.Net, SQL Server",
       link: "https://github.com/your-ecommerce-store"
     },
+    {
+      title: "Total-Wealth",
+      description: "An Integrated Wealth Management System.",
+      technologies: "Djago-Rest-Framework, Flutter, Postgres",
+      link: "https://github.com/tokelo101/tokelomonare"
+    },
   ];
 
   return (
