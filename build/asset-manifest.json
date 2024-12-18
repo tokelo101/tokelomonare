@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/tokelomonare/static/css/main.73272b8d.css",
-    "main.js": "/tokelomonare/static/js/main.bf34940d.js",
+    "main.css": "/tokelomonare/static/css/main.d02171ed.css",
+    "main.js": "/tokelomonare/static/js/main.cec18673.js",
     "static/js/787.43691022.chunk.js": "/tokelomonare/static/js/787.43691022.chunk.js",
+    "static/media/tech_Setup.jpg": "/tokelomonare/static/media/tech_Setup.5fe69c3909a71d40265f.jpg",
+    "static/media/profilePhoto.jpg": "/tokelomonare/static/media/profilePhoto.ea346a1ba316a907a73b.jpg",
+    "static/media/blue-code.png": "/tokelomonare/static/media/blue-code.b3200d77c03e4474a08f.png",
+    "static/media/graduation 2.png": "/tokelomonare/static/media/graduation 2.d3ec6dfbfa7037bc2975.png",
     "index.html": "/tokelomonare/index.html",
-    "main.73272b8d.css.map": "/tokelomonare/static/css/main.73272b8d.css.map",
-    "main.bf34940d.js.map": "/tokelomonare/static/js/main.bf34940d.js.map",
+    "main.d02171ed.css.map": "/tokelomonare/static/css/main.d02171ed.css.map",
+    "main.cec18673.js.map": "/tokelomonare/static/js/main.cec18673.js.map",
     "787.43691022.chunk.js.map": "/tokelomonare/static/js/787.43691022.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73272b8d.css",
-    "static/js/main.bf34940d.js"
+    "static/css/main.d02171ed.css",
+    "static/js/main.cec18673.js"
   ]
 }
