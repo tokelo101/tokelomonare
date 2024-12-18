@@ -1,6 +1,9 @@
 import React from "react";
 import './Hero.css';
+<<<<<<< HEAD
 import profilePhoto from "../images/profilePhoto.jpg";
+=======
+>>>>>>> e7d35daf4a1e953906dc8940dbc3998502fcc8c9
 
 const Hero = () => {
   return (
@@ -8,7 +11,11 @@ const Hero = () => {
       <div className="container hero-content">
         {/* Profile Image */}
         <div className="profile-image">
+<<<<<<< HEAD
         <img src={profilePhoto} alt="Profile" />
+=======
+        <img src='/images/tokelo3.jpg' alt="Profile" />
+>>>>>>> e7d35daf4a1e953906dc8940dbc3998502fcc8c9
         </div>
 
         {/* Hero Text */}

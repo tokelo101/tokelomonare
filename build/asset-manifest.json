@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/tokelomonare/static/css/main.d02171ed.css",
     "main.js": "/tokelomonare/static/js/main.cec18673.js",
     "static/js/787.43691022.chunk.js": "/tokelomonare/static/js/787.43691022.chunk.js",
@@ -15,5 +16,18 @@
   "entrypoints": [
     "static/css/main.d02171ed.css",
     "static/js/main.cec18673.js"
+=======
+    "main.css": "/tokelomonare/static/css/main.73272b8d.css",
+    "main.js": "/tokelomonare/static/js/main.bf34940d.js",
+    "static/js/787.43691022.chunk.js": "/tokelomonare/static/js/787.43691022.chunk.js",
+    "index.html": "/tokelomonare/index.html",
+    "main.73272b8d.css.map": "/tokelomonare/static/css/main.73272b8d.css.map",
+    "main.bf34940d.js.map": "/tokelomonare/static/js/main.bf34940d.js.map",
+    "787.43691022.chunk.js.map": "/tokelomonare/static/js/787.43691022.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73272b8d.css",
+    "static/js/main.bf34940d.js"
+>>>>>>> e7d35daf4a1e953906dc8940dbc3998502fcc8c9
   ]
 }
