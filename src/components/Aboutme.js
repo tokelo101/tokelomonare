@@ -43,10 +43,6 @@ const AboutMe = () => {
           <h3>Fun Facts</h3>
           <div className="facts-grid">
             <div className="fact-card">
-              <h4>🎮 Gaming</h4>
-              <p>I'm an avid gamer and love exploring new virtual worlds when I'm not coding.</p>
-            </div>
-            <div className="fact-card">
               <h4>💻 Favorite Language</h4>
               <p>My favorite programming language is Java. It's powerful yet simple!</p>
             </div>
@@ -56,14 +52,6 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        </div>
-
-        {/* Tech Setup Image Section */}
-        <div className="tech-setup">
-          <h3>My Tech Setup</h3>
-          <div className="setup-images">
-            <img src={techStack} alt="Tech Setup" />
-          </div>
         </div>
       </div>
     </section>

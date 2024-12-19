@@ -13,6 +13,17 @@ body {
     padding: 60px 20px;
   }
   
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+  
   .section-title {
     font-family: 'Fira Code', monospace;
     font-size: 2.5rem;
@@ -32,7 +43,7 @@ body {
   
   .skill-card {
     background-color: #252525;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 255, 127, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -93,8 +104,39 @@ body {
   }
 
     /* Responsive Design */
-    @media (max-width: 1500px) {
+    @media (max-width: 720px) {
       .skills-grid {
         grid-template-columns: repeat(2, 1fr);
       }
+
+      .skill-card {
+        background-color: #252525;
+        padding: 10px;
+        width: 150px;
+        margin-left: -10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 255, 127, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
       }
+
+      .skill-card h3 {
+        font-family: 'Fira Code', monospace;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #00ff7f;
+        margin-bottom: 15px;
+        text-shadow: 0px 0px 5px rgba(0, 255, 127, 0.75);
+      }
+
+      .skill-card p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.7rem;
+        line-height: 1.6;
+        color: #cfcfcf;
+      }
+
+      }
+
+
+   

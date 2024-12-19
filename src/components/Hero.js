@@ -14,7 +14,7 @@ const Hero = () => {
         {/* Hero Text */}
         <div className="hero-text">
           <h1>Hello, I'm <span className="highlight">Tokelo Monare</span></h1>
-          <p className="subheading">Backend Developer | API Developer | Tech Enthusiast | Problem Solver</p>
+          <p className="subheading">Software Developer | Tech Enthusiast | Problem Solver</p>
           <a href="#projects" className="btn">View My Work</a>
         </div>
       </div>

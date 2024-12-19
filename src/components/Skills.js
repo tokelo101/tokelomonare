@@ -7,9 +7,9 @@ const Skills = () => {
   return (
 
     <section className="skills section">
-      <div className="container hero-content">
         <h2 className="section-title">Technical & Soft Skills</h2>
-
+        
+        <div className="container hero-content">
         <div className="skills-grid">
           {/* Programming Languages */}
           <div className="skill-card">
@@ -43,7 +43,7 @@ const Skills = () => {
           <div className="skill-card">
             <FontAwesomeIcon icon={faLaptopCode} />
             <h3>API Development</h3>
-            <p>RESTful APIs</p>
+            <p>Django-Rest-Framework</p>
           </div>
 
           {/* Tools */}
@@ -60,7 +60,7 @@ const Skills = () => {
             <p>Communication, Leadership, Teamwork, Time Management</p>
           </div>
         </div>
-      </div>
+        </div>
     </section>
   );
 };

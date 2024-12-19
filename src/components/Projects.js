@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: "Total-Wealth",
       description: "An Integrated Wealth Management System.",
-      technologies: "Djago-Rest-Framework, Flutter, Postgres",
+      technologies: "Django-Rest-Framework, Flutter, Postgres",
       link: "https://github.com/tokelo101/tokelomonare"
     },
   ];

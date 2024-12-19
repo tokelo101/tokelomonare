@@ -124,7 +124,11 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
+  @media (max-width: 720px) {
+    .achievements-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
     .education-content {
       flex-direction: column;
     }
@@ -138,11 +142,17 @@
       width: 100%;
       max-width: 400px;
     }
-  }
-  
-    /* Responsive Design */
-    @media (max-width: 1500px) {
-      .achievements-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
+    .achievement-card p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 0.7rem;
+      color: #cfcfcf;
     }
+
+    .education-text p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 0.7rem;
+      line-height: 1.6;
+      color: #cfcfcf;
+      margin-bottom: 15px;
+    }
+  }
